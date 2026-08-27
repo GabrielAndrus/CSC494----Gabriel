@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="frx@121.48.164.87:22 password (3)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="8台L40">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/home/frx/cultural_llm" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="A800服务器">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.161.77:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.161.79:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/frx/Code/cultural_llm" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.161.79:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.164.87:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/home/frx/cultural_llm" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.164.87:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/home/frx/cultural_llm" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.164.87:22 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/home/frx/cultural_llm" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/data/home/frx/cultural_llm/output_data/culturebank_data/culturebank_data_pre_grounded_lama_SFT_konwledge_points.csv" />
+            <excludedPath path="/data/home/frx/cultural_llm/output_data/culturebank_data/culturebank_data_pre_grounded_lama_SFT_fix8.csv" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.165.128:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/frx/Code/cultural_llm" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="frx@121.48.165.128:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="server_2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code/cultural_llm" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="第二胎frx">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code/cultural_llm" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

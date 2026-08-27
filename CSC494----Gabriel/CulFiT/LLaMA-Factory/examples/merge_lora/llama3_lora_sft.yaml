@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /models/Meta-Llama-3.1-8B-Instruct
+adapter_name_or_path: /data/home/frx/cultural_llm/lora_weights/Llama3.1-12-20
+template: llama3
+finetuning_type: lora
+
+### export
+export_dir: /data/home/frx/cultural_llm/models
+export_size: 2
+export_device: cpu
+export_legacy_format: false

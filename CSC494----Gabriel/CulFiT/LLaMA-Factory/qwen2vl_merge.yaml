@@ -1,0 +1,15 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /models/Qwen2.5-7B-Instruct
+#model_name_or_path: /data/home/frx/cultural_llm/models/Qwen-2.5-Instruct-7b-SFT
+
+adapter_name_or_path: /data/home/frx/cultural_llm/lora_weights/qwen2.5-SFT
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: /data/home/frx/cultural_llm/models/Qwen2.5-Instruct-7B-SFT
+export_size: 2
+export_device: cpu
+export_legacy_format: false

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="97e9a6f8-73bb-42d0-b573-d54126017144" name="server_2" url="">
+        <fileTransfer rootFolder="/home/frx" accessType="SFTP" host="121.48.161.79" port="22" sshConfigId="7e060cbd-3bba-4256-8e32-b6fcae49eef0" sshConfig="frx@121.48.161.79:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1c6416b1-f387-46c6-b8c8-6ffaf0f2eb40" name="第二胎frx">
+        <fileTransfer rootFolder="/home/frx" accessType="SFTP" host="121.48.165.128" port="22" sshConfigId="f31922c0-993b-4e26-bc6b-a9dafe66b18d" sshConfig="frx@121.48.165.128:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="af05036f-e752-4688-8be0-fca9f94d3539" name="A800服务器">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="root@connect.nma1.seetacloud.com" port="42191" sshConfigId="dd73ea1a-0f47-4f57-a891-c27e676c294f" sshConfig="root@root@connect.nma1.seetacloud.com:42191 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="13be92f0-5548-49e5-b2a1-6b642d0259a9" name="frx@121.48.161.77:22">
+        <fileTransfer rootFolder="/home/data" accessType="SFTP" host="121.48.161.77" port="22" sshConfigId="7b1e88c4-9753-4d45-9405-17f1bf0ed90b" sshConfig="frx@121.48.161.77:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2458aa2f-f7e0-454e-bd69-7ec24ea20150" name="8台L40">
+        <fileTransfer accessType="SFTP" host="121.48.164.87" port="22" sshConfigId="fe4f3df9-6c14-4971-b21f-edfa5e332d12" sshConfig="frx@121.48.164.87:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

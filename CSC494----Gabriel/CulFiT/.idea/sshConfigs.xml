@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="121.48.161.79" id="7e060cbd-3bba-4256-8e32-b6fcae49eef0" port="22" nameFormat="DESCRIPTIVE" username="frx" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="root@connect.nma1.seetacloud.com" id="dd73ea1a-0f47-4f57-a891-c27e676c294f" port="42191" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

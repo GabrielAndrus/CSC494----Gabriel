@@ -1,0 +1,41 @@
+### model
+model_name_or_path: /models/Qwen2.5-7B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: candle_Atlas_filter_final
+template: qwen
+cutoff_len: 4096
+max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: /data/home/frx/cultural_llm/lora_weights/qwen2.5-SFT
+logging_steps: 10
+save_steps: 200
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-5
+num_train_epochs: 20
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+lora_rank: 16
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.05
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 50
