@@ -94,6 +94,13 @@ def build_orchestrator(mode: str, model: str, q: dict):
         a_backend = make_backend("api", model_name=model)
         b_backend = make_backend("api", model_name=model)
         arbiter = make_backend("api", model_name=model)
+    elif mode == "gemini":
+        # Needs GEMINI_API_KEY (or GOOGLE_API_KEY) in the environment and the
+        # `openai` package installed -- see orchestration/smoke_test_gemini.py
+        # to verify the key/package before running a real ablation with this.
+        a_backend = make_backend("gemini", model_name=model)
+        b_backend = make_backend("gemini", model_name=model)
+        arbiter = make_backend("gemini", model_name=model)
     elif mode == "local":
         raise SystemExit("local mode needs model_obj/tokenizer_obj wired in on the cluster; "
                          "see LocalBackend. Use --mode mock offline.")
@@ -159,10 +166,14 @@ def run(mode: str, model: str, max_loops: int):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--mode", default="mock", choices=["mock", "api", "local"])
-    p.add_argument("--model", default="gpt-4o")
+    p.add_argument("--mode", default="mock", choices=["mock", "api", "gemini", "local"])
+    p.add_argument("--model", default=None,
+                   help="Defaults to gpt-4o for --mode api, gemini-2.0-flash for "
+                        "--mode gemini. Required for other modes.")
     p.add_argument("--max_loops", type=int, default=3)
     args = p.parse_args()
-    _, _, summary = run(args.mode, args.model, args.max_loops)
+    default_models = {"api": "gpt-4o", "gemini": "gemini-2.0-flash"}
+    model = args.model or default_models.get(args.mode, "gpt-4o")
+    _, _, summary = run(args.mode, model, args.max_loops)
     print("\n=== ABLATION SUMMARY ===")
     print(json.dumps(summary, indent=2))

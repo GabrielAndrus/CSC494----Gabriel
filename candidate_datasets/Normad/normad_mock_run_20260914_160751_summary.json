@@ -1,0 +1,39 @@
+{
+  "by_topology": {
+    "static": {
+      "n_runs": 18,
+      "approval_rate": 0.0,
+      "avg_mean_precision": 0.6666666666666666,
+      "avg_loops": 0.0,
+      "avg_repairs": 0.0
+    },
+    "parallel": {
+      "n_runs": 18,
+      "approval_rate": 0.0,
+      "avg_mean_precision": 0.6666666666666666,
+      "avg_loops": 1.0,
+      "avg_repairs": 0.0
+    },
+    "sequential": {
+      "n_runs": 18,
+      "approval_rate": 0.0,
+      "avg_mean_precision": 0.6666666666666666,
+      "avg_loops": 3.0,
+      "avg_repairs": 2.0
+    }
+  },
+  "by_gold_label_static_only": {
+    "yes": {
+      "n": 7,
+      "approval_rate": 0.0
+    },
+    "no": {
+      "n": 6,
+      "approval_rate": 0.0
+    },
+    "neutral": {
+      "n": 5,
+      "approval_rate": 0.0
+    }
+  }
+}

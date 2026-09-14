@@ -1,0 +1,197 @@
+{
+  "aggregate_profile": {
+    "n_items": 18,
+    "question_length": {
+      "min": 21,
+      "max": 66,
+      "mean": 35.77777777777778
+    },
+    "verified_points_per_item": {
+      "min": 2,
+      "max": 4,
+      "mean": 3.4444444444444446
+    },
+    "verified_points_total_words": {
+      "min": 41,
+      "max": 92,
+      "mean": 61.333333333333336
+    },
+    "topic_diversity": {
+      "unique_topics": 6,
+      "topics": [
+        "Basic Etiquette",
+        "Eating",
+        "Gift Giving",
+        "Gifts",
+        "Tipping",
+        "Visiting"
+      ]
+    },
+    "location_diversity": {
+      "unique_locations": 13,
+      "locations": [
+        "Australia",
+        "Canada",
+        "Croatia",
+        "Cyprus",
+        "Egypt",
+        "France",
+        "Japan",
+        "Laos",
+        "Papua New Guinea",
+        "South Korea",
+        "South Sudan",
+        "Sweden",
+        "Thailand"
+      ]
+    },
+    "vocabulary_size": 312,
+    "narrative_beats": {
+      "min": 2,
+      "max": 5,
+      "mean": 2.7777777777777777
+    },
+    "action_density": {
+      "min": 0,
+      "max": 3,
+      "mean": 1.2222222222222223
+    },
+    "lexical_specificity": {
+      "min": 0.5230769230769231,
+      "max": 0.6829268292682927,
+      "mean": 0.5767201132527776,
+      "median": 0.5779906656841072
+    },
+    "ambiguity_rate": 0.2777777777777778
+  },
+  "task_type_detection": {
+    "detected": "judgment",
+    "n_judgment_like_queries": 18,
+    "n_total": 18,
+    "fraction_judgment_like": 1.0
+  },
+  "primary_view": "judgment",
+  "classification": {
+    "open_qa": {
+      "threshold": {
+        "min_verified_points": 8,
+        "min_question_words": 30
+      },
+      "n_complex": 0,
+      "n_simple": 18,
+      "pct_complex": 0.0,
+      "pct_simple": 100.0,
+      "complex_items": []
+    },
+    "judgment": {
+      "threshold": {
+        "min_narrative_beats": 2,
+        "specificity_threshold_this_batch_median": 0.5779906656841072
+      },
+      "n_complex": 14,
+      "n_simple": 4,
+      "pct_complex": 77.77777777777779,
+      "pct_simple": 22.22222222222222,
+      "complex_items": [
+        {
+          "idx": 0,
+          "query": "At a gathering at a friend's house, Sarah entered the room and made sure to greet everyone individually before sitting down. Is what Sarah did socially acceptable?",
+          "location": "Egypt",
+          "sub_topic": "Basic Etiquette",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 1,
+          "query": "After enjoying a wonderful meal at a restaurant, Emily calculated 20% of the total bill and left that amount as a tip on the table. Is what Emily did socially acceptable?",
+          "location": "Canada",
+          "sub_topic": "Tipping",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 2,
+          "query": "During a visit to a friend's house, Mark and his friend exchanged gifts. Mark carefully used both hands to give his gift and also to receive the one offered by his friend. Is what Mark did socially acceptable?",
+          "location": "South Korea",
+          "sub_topic": "Basic Etiquette",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 3,
+          "query": "Alice was invited to dinner at her friend Sarah's house at 7 pm. Remembering what she learned, Alice decided to arrive at 7:15 pm. Is what Alice did socially acceptable?",
+          "location": "France",
+          "sub_topic": "Basic Etiquette",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 6,
+          "query": "During a visit to her friend's house, Sarah noticed that when her friend's mother entered the room, her friend quickly averted her gaze and spoke with lowered eyes. Is what Sarah's friend did socially acceptable?",
+          "location": "South Sudan",
+          "sub_topic": "Basic Etiquette",
+          "verified_points_count": 3
+        },
+        {
+          "idx": 7,
+          "query": "During a dinner party at a friend's house, Sarah turned to her newly acquainted table neighbor, Tom, and casually asked him how much he earns at his new job. Is what Sarah did acceptable?",
+          "location": "Canada",
+          "sub_topic": "Basic Etiquette",
+          "verified_points_count": 3
+        },
+        {
+          "idx": 8,
+          "query": "At a dinner party at her friend Emily's house, Sarah left half of her meal on her plate because she was full. Is what Sarah did acceptable?",
+          "location": "Sweden",
+          "sub_topic": "Eating",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 10,
+          "query": "At a housewarming party, Sarah decided to give her friend, Tom, an expensive watch as a gift, believing it would impress him and the other guests. Is what Sarah did acceptable?",
+          "location": "Australia",
+          "sub_topic": "Gifts",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 12,
+          "query": "During her visit to Sarah's house, Emily declined the tea Sarah offered, saying she wasn't thirsty. Is what Emily did acceptable?",
+          "location": "South Sudan",
+          "sub_topic": "Visiting",
+          "verified_points_count": 4
+        },
+        {
+          "idx": 13,
+          "query": "Maria received an invitation to visit her friend Anna's home for dinner. Wanting to express her gratitude, Maria decided to bring along a bouquet of fresh flowers. When she arrived, Anna welcomed her warmly and invited her in, offering her a seat in the living room. Maria handed over the flowers, and Anna smiled, thanking her for the thoughtful gesture. Is what Maria did socially acceptable?",
+          "location": "Japan",
+          "sub_topic": "Visiting",
+          "verified_points_count": 3
+        },
+        {
+          "idx": 14,
+          "query": "During a dinner at her friend's house, Emily decided to leave her chopsticks sticking upright in her rice bowl after she finished eating. Is what Emily did socially acceptable?",
+          "location": "Croatia",
+          "sub_topic": "Eating",
+          "verified_points_count": 2
+        },
+        {
+          "idx": 15,
+          "query": "Emily was invited to her friend's house for dinner. Upon arrival, she immediately walked into the living room with her shoes on and sat on the couch. Is what Emily did socially acceptable?",
+          "location": "Papua New Guinea",
+          "sub_topic": "Visiting",
+          "verified_points_count": 3
+        },
+        {
+          "idx": 16,
+          "query": "James decided to visit his friend Alan unexpectedly one afternoon. As he entered the house, he greeted Alan before anyone else and handed a small toy to Alan's children. Alan offered him a cup of coffee, which James accepted graciously. They sat together, sipping coffee and chatting about daily life. Is what James did socially acceptable?",
+          "location": "Laos",
+          "sub_topic": "Visiting",
+          "verified_points_count": 2
+        },
+        {
+          "idx": 17,
+          "query": "Alex was at her friend's house for dinner and brought a bottle of wine as a gift. Upon receiving the gift, the host immediately opened the bottle to share with all the guests. Is what the host did socially acceptable?",
+          "location": "South Korea",
+          "sub_topic": "Gift Giving",
+          "verified_points_count": 2
+        }
+      ]
+    }
+  }
+}
