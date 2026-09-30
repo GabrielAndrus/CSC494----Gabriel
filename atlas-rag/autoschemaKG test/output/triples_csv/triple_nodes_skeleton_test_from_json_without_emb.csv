@@ -1,0 +1,13 @@
+name:ID,type,concepts,synsets,:LABEL
+Riverside Bakery,entity,[],[],Node
+Maria Chen,entity,[],[],Node
+sourdough bread,entity,[],[],Node
+The Green Table,entity,[],[],Node
+Millbrook Diner,entity,[],[],Node
+Oakview Cafe,entity,[],[],Node
+David Chen,entity,[],[],Node
+The Riverside Bakery was founded in 1998 by Maria Chen in the town of Millbrook.,event,[],[],Node
+"In 2015, Maria's son, David Chen, took over as head baker.",event,[],[],Node
+"Maria's son, David Chen, took over as head baker in 2015.",event,[],[],Node
+"The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",event,[],[],Node
+"The bakery is famous for its sourdough bread, which is baked fresh every morning.",event,[],[],Node

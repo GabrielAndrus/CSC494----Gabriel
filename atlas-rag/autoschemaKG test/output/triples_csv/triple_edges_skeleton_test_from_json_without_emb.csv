@@ -1,0 +1,20 @@
+:START_ID,:END_ID,relation,concepts,synsets,:TYPE
+Riverside Bakery,Maria Chen,was founded by,[],[],Relation
+Riverside Bakery,sourdough bread,is famous for,[],[],Relation
+Riverside Bakery,The Green Table,supplies,[],[],Relation
+Riverside Bakery,Millbrook Diner,supplies,[],[],Relation
+Riverside Bakery,Oakview Cafe,supplies,[],[],Relation
+Maria Chen,Riverside Bakery,founded,[],[],Relation
+David Chen,Riverside Bakery,took over as head baker,[],[],Relation
+The Riverside Bakery was founded in 1998 by Maria Chen in the town of Millbrook.,"In 2015, Maria's son, David Chen, took over as head baker.",before,[],[],Relation
+"Maria's son, David Chen, took over as head baker in 2015.","The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",at the same time,[],[],Relation
+The Riverside Bakery was founded in 1998 by Maria Chen in the town of Millbrook.,Riverside Bakery,is participated by,[],[],Relation
+The Riverside Bakery was founded in 1998 by Maria Chen in the town of Millbrook.,Maria Chen,is participated by,[],[],Relation
+"The bakery is famous for its sourdough bread, which is baked fresh every morning.",Riverside Bakery,is participated by,[],[],Relation
+"In 2015, Maria's son, David Chen, took over as head baker.",Maria Chen,is participated by,[],[],Relation
+"In 2015, Maria's son, David Chen, took over as head baker.",David Chen,is participated by,[],[],Relation
+"In 2015, Maria's son, David Chen, took over as head baker.",Riverside Bakery,is participated by,[],[],Relation
+"The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",Riverside Bakery,is participated by,[],[],Relation
+"The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",The Green Table,is participated by,[],[],Relation
+"The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",Millbrook Diner,is participated by,[],[],Relation
+"The bakery supplies bread to three local restaurants: The Green Table, Millbrook Diner, and Oakview Cafe.",Oakview Cafe,is participated by,[],[],Relation
